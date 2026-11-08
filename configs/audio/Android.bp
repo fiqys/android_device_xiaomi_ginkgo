@@ -1,0 +1,28 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "audio_platform_info_intcodec.xml",
+    src: "audio_platform_info_intcodec.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths_idp.xml",
+    src: "mixer_paths_idp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_mixer_paths.xml",
+    src: "sound_trigger_mixer_paths.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_platform_info.xml",
+    src: "sound_trigger_platform_info.xml",
+    vendor: true,
+}
