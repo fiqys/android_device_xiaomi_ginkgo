@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
 <resources>
     <!-- Enable auxiliary cameras selector. -->
     <bool name="config_enableAuxCameras">true</bool>
@@ -19,6 +23,7 @@
           - "sd" (480p)
           - "hd" (720p)
           - "fhd" (1080p)
+          - "qhd" (1440p)
           - "uhd" (2160p)
          Valid values of frame rate are:
           - "24"
