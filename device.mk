@@ -66,13 +66,14 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_willow/android.hardware.nfc.uicc.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
-    ApertureGinkgo \
-    LineageSDKGinkgo
+    ApertureOverlayGinkgo \
+    CarrierConfigOverlayGinkgo \
+    FrameworkResOverlayGinkgo \
+    LineageSDKOverlayGinkgo \
+    SystemUIOverlayGinkgo
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28

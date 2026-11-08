@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageSDKGinkgo",
-    product_specific: true,
+    name: "FrameworkResOverlayGinkgo",
+    vendor: true,
 }
